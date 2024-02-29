@@ -1,0 +1,42 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    background-color: aquamarine;
+    width: 70%;
+    height: 70%;
+    border: solid 2px black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+section>div {
+    width: 30%;
+    height: 80%;
+    border: solid 1px black;
+    text-align: center;
+}
+
+input {
+    width: 70%;
+    height: 190px;
+    font-size: 60px;
+    text-align: center;
+}
+
+h1 {
+    margin: 10px;
+    font-size: 30px;
+}
